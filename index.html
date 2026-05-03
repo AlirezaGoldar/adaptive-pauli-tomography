@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>An Exponential Advantage for Adaptive Tomography</title>
+
+  <meta name="description" content="Project page for the paper An Exponential Advantage for Adaptive Tomography of Structured States under Pauli Basis Measurements." />
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 42px 22px;
+      color: #222;
+      background: #fafafa;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 38px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 6px;
+    }
+
+    .subtitle {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #444;
+      margin-bottom: 24px;
+    }
+
+    .authors {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 28px;
+    }
+
+    .button-row {
+      margin: 24px 0 30px 0;
+    }
+
+    .button {
+      display: inline-block;
+      margin: 6px 8px 6px 0;
+      padding: 10px 16px;
+      border-radius: 8px;
+      background: #1f4e79;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .button.secondary {
+      background: #555;
+    }
+
+    .box {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 24px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+
+    .figure-placeholder {
+      background: #f0f0f0;
+      border: 1px dashed #aaa;
+      border-radius: 12px;
+      padding: 38px;
+      text-align: center;
+      color: #666;
+      margin: 26px 0;
+    }
+
+    .note {
+      color: #555;
+      font-size: 0.96rem;
+    }
+
+    pre {
+      background: #f2f2f2;
+      border-radius: 10px;
+      padding: 16px;
+      overflow-x: auto;
+      font-size: 0.92rem;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #666;
+      border-top: 1px solid #ddd;
+      padding-top: 18px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>An Exponential Advantage for Adaptive Tomography of Structured States under Pauli Basis Measurements</h1>
+
+  <div class="subtitle">Same hardware. Different scaling.</div>
+
+  <div class="authors">
+    Alireza Goldar et al.<br />
+    Colorado School of Mines
+  </div>
+
+  <div class="button-row">
+    <a class="button" href="https://arxiv.org/pdf/2604.26043" target="_blank">Paper PDF</a>
+    <a class="button" href="https://arxiv.org/abs/2604.26043" target="_blank">arXiv</a>
+    <a class="button secondary" href="#citation">BibTeX</a>
+    <a class="button secondary" href="#resources">Resources</a>
+  </div>
+
+  <div class="box">
+    <h2>Overview</h2>
+    <p>
+      This paper studies when adaptivity can help in quantum tomography under the same Pauli basis measurement hardware.
+      We construct a structured family of quantum states for which an adaptive strategy can identify the relevant hidden
+      structure efficiently, while any fixed non-adaptive allocation can be exponentially inefficient in the worst case.
+    </p>
+  </div>
+
+  <div class="figure-placeholder">
+    Main figure will be added here:<br />
+    adaptive polynomial-like scaling versus non-adaptive exponential-like scaling.
+  </div>
+
+  <h2>Main message</h2>
+  <p>
+    The result does not claim that adaptivity always improves quantum tomography. Instead, it shows that after the state
+    family, measurement architecture, and success criterion are specified carefully, adaptivity can provably change the
+    sample-complexity scaling.
+  </p>
+
+  <h2>Why this matters</h2>
+  <p>
+    Pauli basis measurements are experimentally natural and widely used. The main point is that one does not need to
+    change the measurement hardware to obtain a strong separation: the advantage comes from choosing the next measurement
+    setting sequentially based on previous outcomes.
+  </p>
+
+  <h2>Informal theorem</h2>
+  <p>
+    For a hierarchical prefix family of structured quantum states, adaptive tomography can recover the hidden structure
+    with polynomial sample complexity, while non-adaptive tomography requires exponentially many samples in the worst case
+    under the same measurement architecture.
+  </p>
+
+  <h2 id="resources">Resources</h2>
+  <ul>
+    <li><strong>Preprint:</strong> available on arXiv.</li>
+    <li><strong>Code:</strong> to be added after the reproducibility repository is cleaned.</li>
+    <li><strong>Slides:</strong> to be added after the presentation version is prepared.</li>
+  </ul>
+
+  <h2 id="citation">Citation</h2>
+  <p class="note">
+    BibTeX entry:
+  </p>
+
+  <pre>
+@article{goldar2026exponential,
+  title={An Exponential Advantage for Adaptive Tomography of Structured States under Pauli Basis Measurements},
+  author={Goldar, Alireza and others},
+  journal={arXiv preprint arXiv:2604.26043},
+  year={2026}
+}
+  </pre>
+
+  <footer>
+    Last updated: May 2026. This page describes a manuscript currently available as a preprint.
+  </footer>
+
+</body>
+</html>
